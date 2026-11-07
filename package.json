@@ -1,0 +1,9 @@
+{
+  "name": "sqe-pipeline",
+  "version": "1.0.0",
+  "description": "Jenkins pipeline lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  }
+}
