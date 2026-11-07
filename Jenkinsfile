@@ -17,6 +17,12 @@ pipeline {
         }
         stage('Report') {
             steps { echo "Pipeline run by ${env.BRYANT_SY}" }
+        stage('Show Versions') {
+            steps {
+                sh 'node -v && npm -v'
+                echo "Build finished for ${env.BRYANT_SY}"
+                }
+            }
         }
     }
     post {
